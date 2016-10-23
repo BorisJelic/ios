@@ -41,6 +41,10 @@ class GameViewController: UIViewController {
     skView.presentScene(scene)
   }
 
+    func BorisTest() {
+        
+    }
+    
   override func shouldAutorotate() -> Bool {
     return false
   }
