@@ -44,8 +44,7 @@ class GameViewController: UIViewController {
   
     
     func didGetSomeData() {
-        
-    }
+            }
     
   override func shouldAutorotate() -> Bool {
     return false
