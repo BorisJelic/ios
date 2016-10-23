@@ -41,7 +41,9 @@ class GameViewController: UIViewController {
     skView.presentScene(scene)
   }
 
-    func BorisTest() {
+  
+    
+    func didGetSomeData() {
         
     }
     
