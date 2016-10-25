@@ -47,12 +47,12 @@ class GameViewController: UIViewController {
             }
     
   override func shouldAutorotate() -> Bool {
-    return false
+    return true
   }
 
     override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
-        let orientation: UIInterfaceOrientationMask = [UIInterfaceOrientationMask.Portrait, UIInterfaceOrientationMask.PortraitUpsideDown]
-        return orientation
+       // let orientation: UIInterfaceOrientationMask = UIInterfaceOrientationMask.Portrait
+        return [.LandscapeLeft,.LandscapeRight]
     }
     
   override func didReceiveMemoryWarning() {
